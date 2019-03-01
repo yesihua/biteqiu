@@ -1,0 +1,21 @@
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}
+.weui-media-box__desc_all{
+  color:rgba(36, 54, 39, 0.747);
+  font-size:15px;
+  line-height:1.5;
+}
+.weui-cell__lt{
+  text-align:left;
+  color:black;
+}
