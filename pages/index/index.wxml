@@ -29,7 +29,9 @@
                     </view>
                     
                   </view>
-                  
+                  <view class="weui-btn-area">
+                  <navigator url="../navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到首页</navigator>
+                        </view>
                 </view>
                 <view class="page__bd" hidden="{{activeIndex != 1}}">
                 <form bindsubmit="formSubmit" bindreset="formReset">
@@ -46,7 +48,7 @@
                           </view>
                           <view class="weui-cell">
                               <view class="weui-label">商品库存</view>
-                              <view class="weui-cell__bd">18</view>
+                              <view class="weui-cell__bd">{{kucunValue}}</view>
                           </view>
                           <view class="weui-cell weui-cell_input">
                             <view class="weui-cell__hd">
